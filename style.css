@@ -234,6 +234,27 @@ section .title::after{
 }
 
 /* about section styling */
+.about .ulpoints{
+    font-weight: bold;
+    padding: 15px;
+    color:rgb(59, 59, 59);
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.about .ulpoints .li{
+    margin: 15px;
+}
+.about .ulpoints li:hover{
+    color: #F5B301;
+    cursor: pointer;
+    font-size: 22px;
+}
+.about .title{
+    font-size: 40px;
+}
+
 .about .title::after{
     content: "--------------";
 }
@@ -250,7 +271,7 @@ section .title::after{
     width: 55%;
 }
 .about .about-content .right .text{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 10px;
 }
